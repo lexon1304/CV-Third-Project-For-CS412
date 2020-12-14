@@ -1,0 +1,59 @@
+body {
+  background-color: lightgrey;
+  border-style: double;
+  border-color: white;
+  border-width: medium;
+  margin: 25px 50px 75px 100px;
+  font-size: 15px;
+}
+h1 {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+img {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-rigth: auto;
+}
+.click {
+  background-color: lightgrey;
+  color: black;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}
+h3 {
+  color: grey;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+  line-height: 2.0;
+  text-align: left;
+}
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+  line-height: 2.0;
+  text-align: left;
+  word-break: keep-all;
+}
+button{
+  border-radius: 8px;
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  display: block;
+  width: 250px;
+}
+button:hover {
+  background-color: lightgrey;
+  color: black;
+}
